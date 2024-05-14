@@ -12,8 +12,8 @@ config_version=5
 
 config/name="Szabla Survival"
 run/main_scene="res://Game.tscn"
-config/features=PackedStringArray("4.2", "Forward Plus")
-config/icon="res://icon.svg"
+config/features=PackedStringArray("4.2", "C#", "Forward Plus")
+config/icon="res://Graphic/icon.svg"
 
 [dotnet]
 
