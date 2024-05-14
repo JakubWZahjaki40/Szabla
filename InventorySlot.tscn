@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dtxysnufkgiia"]
+
+[ext_resource type="Texture2D" uid="uid://beo8un67y7kma" path="res://Graphic/icon.svg" id="1_2lnq5"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ibb1y"]
+texture = ExtResource("1_2lnq5")
+
+[node name="InventorySlot" type="Node2D"]
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+size_flags_stretch_ratio = 0.95
+theme_override_styles/panel = SubResource("StyleBoxTexture_ibb1y")

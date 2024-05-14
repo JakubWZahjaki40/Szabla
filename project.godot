@@ -11,10 +11,14 @@ config_version=5
 [application]
 
 config/name="Szabla Survival"
-run/main_scene="res://Game.tscn"
+run/main_scene="res://Scenes/Game.tscn"
 config/features=PackedStringArray("4.2", "C#", "Forward Plus")
 config/icon="res://Graphic/icon.svg"
 
 [dotnet]
 
 project/assembly_name="Szabla Survival"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0

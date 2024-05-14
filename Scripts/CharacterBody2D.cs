@@ -11,7 +11,7 @@ public partial class CharacterBody2D : Godot.CharacterBody2D
 		Vector2 direction = Input.GetVector("ui_left", "ui_right", "ui_up", "ui_down");
 
 		Velocity = direction.Normalized() * Speed;
-
+		
 		MoveAndSlide();
 	}
 }

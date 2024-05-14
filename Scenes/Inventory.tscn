@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://d0ogjur3jd87x"]
+
+[ext_resource type="Texture2D" uid="uid://b0s83thxag0q3" path="res://Graphic/InventoryBackground.png" id="1_1x2lu"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fa02p"]
+size = Vector2(290.5, 188)
+
+[node name="Main" type="Node2D"]
+scale = Vector2(0.2, 0.2)
+
+[node name="InventoryBackground" type="Sprite2D" parent="."]
+texture = ExtResource("1_1x2lu")
+
+[node name="Przestrzen Eq" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Przestrzen Eq"]
+shape = SubResource("RectangleShape2D_fa02p")
